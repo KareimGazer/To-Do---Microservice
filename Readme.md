@@ -14,4 +14,6 @@ Then the app starts fetching data from the backend (express-app)
 The backend uses MongoDB as a permanenat store. data are presisted locally using docker volumes. Redis DB is used for caching
 ![Frontend Request](./img/backend_drawio.png)
 
+The containers use the default network bridge for communication with DNS lookups provided by docker.
+
 ## Getting Started (Docker)
