@@ -26,3 +26,16 @@ docker compose -f ./docker-compose.dev.yml up
 ```
 
 ## File Structure
+
+```
+To Do (Single-Page App):  Microservice
+├── todo-frontend                frontend-app
+├── todo-backend                 backend server contsaing express, Mongo, Redis
+    ├── utils                    Databases configurations
+    ├── mongo                    Mongo DB - NoSQL for simplicity
+    ├── redis                    Redis DB - used for caching
+├── .gitignore                   ignoreing data volumes from VCS
+├── docker-compose.dev.yml       development deployment composer file
+├── nginx.dev.conf               Nginx configuration for development deployment
+└── README.md                    main documentation
+```
